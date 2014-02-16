@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceLevelAgreement>
+	<probabilityOfFailureOnDemand>0.2</probabilityOfFailureOnDemand>
+	<rateOfOccurrenceOfFailures>0.3</rateOfOccurrenceOfFailures>
+	<meanTimeToFailure>500</meanTimeToFailure>
+	<availability>0.80</availability>
+</serviceLevelAgreement>

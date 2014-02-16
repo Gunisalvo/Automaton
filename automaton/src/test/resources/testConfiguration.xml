@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automaton>
+	<serviceLevelAgreementFile>/testSLA.xml</serviceLevelAgreementFile>
+	<totalRunningTime>120000</totalRunningTime>
+	<requestsMinute>100</requestsMinute>
+	<scripts>
+		<script>org.gunisalvo.automaton.realTimeHook.Test1</script>
+		<script>org.gunisalvo.automaton.realTimeHook.Test2</script>
+		<script>org.gunisalvo.automaton.realTimeHook.Test3</script>
+	</scripts>
+</automaton>

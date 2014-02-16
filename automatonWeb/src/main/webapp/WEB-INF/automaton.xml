@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automaton>
+	<totalRunningTime>60000</totalRunningTime>
+	<requestsMinute>100</requestsMinute>
+	<serviceLevelAgreement>
+		<probabilityOfFailureOnDemand>0.2</probabilityOfFailureOnDemand>
+		<rateOfOccurrenceOfFailures>0.3</rateOfOccurrenceOfFailures>
+		<meanTimeToFailure>500</meanTimeToFailure>
+		<availability>0.99</availability>
+	</serviceLevelAgreement>
+</automaton>
