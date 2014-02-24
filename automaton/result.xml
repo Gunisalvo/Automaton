@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<automatonResults>
+	<configuration>
+		<requestsMinute>100</requestsMinute>
+		<scripts>
+			<script>org.gunisalvo.automaton.realTimeHook.Test1</script>
+			<script>org.gunisalvo.automaton.realTimeHook.Test2</script>
+			<script>org.gunisalvo.automaton.realTimeHook.Test3</script>
+		</scripts>
+		<serviceLevelAgreementFile>/testSLA.xml</serviceLevelAgreementFile>
+		<totalRunningTime>120000</totalRunningTime>
+	</configuration>
+	<numberOfFailures>33</numberOfFailures>
+	<numberOfRequests>161</numberOfRequests>
+	<numberOfRequestsDuringDowntime>39</numberOfRequestsDuringDowntime>
+	<serviceLevelAgreement>
+		<availability>0.8</availability>
+		<meanTimeToFailure>500</meanTimeToFailure>
+		<probabilityOfFailureOnDemand>0.2</probabilityOfFailureOnDemand>
+		<rateOfOccurrenceOfFailures>0.3</rateOfOccurrenceOfFailures>
+	</serviceLevelAgreement>
+	<totalDowntime>23998</totalDowntime>
+</automatonResults>

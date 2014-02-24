@@ -1,6 +1,5 @@
 package org.gunisalvo.automaton.realTimeHook;
 
-import org.gunisalvo.automaton.realTimeHook.AutomatonTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 

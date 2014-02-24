@@ -1,5 +1,10 @@
 package org.gunisalvo.automaton.controller;
 
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+
 import org.gunisalvo.automaton.controller.realTime.RealTimeSimulationController;
 import org.gunisalvo.automaton.controller.xml.AutomatonConfiguration;
 import org.gunisalvo.automaton.controller.xml.SimulationResults;
@@ -31,7 +36,12 @@ public class ActiveSimulationControllerTest {
 	public void simulationTest() throws InterruptedException {
 		this.guineaPig.configure("/testConfiguration.xml");
 		SimulationResults results = this.guineaPig.startSimulation();
-		System.out.println(results);
+		try {
+			JAXBContext.newInstance(SimulationResults.class).createMarshaller().marshal(results, new File("result.xml"));
+		} catch (JAXBException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Active Simulation Ended.");
 	}
 
 }
